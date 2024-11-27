@@ -16,7 +16,7 @@ IF( ${CMAKE_COMPILER_IS_GNUCXX} )
 ENDIF( ${CMAKE_COMPILER_IS_GNUCXX} )
 endif(${WIN32})
 
-option(USE_FTD2XX "Use FTDI libFTD2XX instead of free libftdi" ON)
+option(USE_FTD2XX "Use FTDI libFTD2XX instead of free libftdi" OFF)
 
 find_package(libftdi)
 include_directories(${LIBFTDI_INCLUDE_DIR})

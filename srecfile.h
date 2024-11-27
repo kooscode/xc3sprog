@@ -28,6 +28,7 @@ Modifyied from sreddec
 #include <stdio.h>
 
 typedef unsigned char byte;
+
 typedef struct
 {
    int Type;    /* S-Record Type */

@@ -74,6 +74,13 @@ by specifying it's location in the JTAG chain. Example command line below.
 ```
 $ ./xc3sprog -c pp -p 1 <bitfile.bit>
 ```
+
+The Platform Flash PROM of the Xilinx Spartan6 ALINX AX309 Kit can be programmed
+by specifying it's location in the JTAG chain and using FT232H. Example command line below.
+```
+$ ./xc3sprog -c ft232h -p 0 <bitfile.bit>
+```
+
 Program the flash of an XC3S50AN by loading the bscan_spi bitfile
 first. Aassume the XC3S50AN as single part in the jtag chain
 ```
